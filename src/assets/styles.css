@@ -344,6 +344,10 @@ main {
 
 .news_article_img-1 {
   position: relative;
+  width: 340px;
+  min-height: 290px;
+  max-height: 290px;
+  overflow: hidden;
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
   z-index: 1;
@@ -351,10 +355,13 @@ main {
 
 .news_img_text-holder {
   position: absolute;
+  margin: auto;
   top: 78%;
   left: 5%;
-  width: 129px;
-  height: 41px;
+  min-width: 129px;
+  max-width: fit-content;
+  min-height: 41px;
+  max-height: fit-content;
   background-color: #FFF;
   border-radius: 10px;
   border-bottom-left-radius: 0;

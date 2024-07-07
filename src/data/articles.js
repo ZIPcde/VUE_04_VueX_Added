@@ -1,9 +1,9 @@
 export const articlesExport = [
     // Архитектура
     { 
-      theme: 'Дизайн кухни',
+      theme: 'Low Cost Latest Invented Interior Designing Ideas',
       image_path: '/images/Img7.png', 
-      main_text: 'Low Cost Latest Invented Interior Designing Ideas', 
+      main_text: 'С того времени этот, похожий на латинский, текст стал стандартом в печатной промышленности для примеров шрифтов и текстов. Перед появлением электронных издательств дизайнеры импровизировали в работе над макетами, изображая текст при помощи волнистых линий. С появлением самоклеющихся наклеек с напечатанным текстом «Lorem ipsum» появился более реалистичный способ обозначения расположения текста на странице.', 
       article_date: '2024-07-07',
       themeFilter: 'Hot News',
       expanded: false
@@ -57,7 +57,7 @@ export const articlesExport = [
       expanded: false
     },
     { 
-      theme: 'Современные тенденции в архитектуре', 
+      theme: 'Современные тенденции архитектуры', 
       image_path: '/images/BlogDetails/architecture/1 (1).jpg', 
       main_text: 'Современная архитектура воплощает инновационные концепции и технологии, отражая динамичность современного общества и стремление к уникальным формам и материалам. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis eius exercitationem, aliquid facilis corrupti facere repellat quaerat sequi eligendi repellendus sit saepe cumque quos, corporis officia, harum fuga nemo unde blanditiis ipsa? Molestias ad, voluptas natus maiores quo labore est expedita odit, sed pariatur sapiente quam repellat! Amet, fuga accusantium numquam asperiores assumenda quia mollitia reiciendis atque deleniti eius reprehenderit!', 
       article_date: '2024-06-30',
@@ -65,7 +65,7 @@ export const articlesExport = [
       expanded: false
     },
     { 
-      theme: 'Архитектурное наследие: история и современность', 
+      theme: 'Архитектурное наследие', 
       image_path: '/images/BlogDetails/architecture/1 (2).jpg', 
       main_text: 'История архитектуры служит источником вдохновения для современных архитекторов, объединяя традиционные элементы с современными тенденциями, создавая уникальные и прекрасные сооружения. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis eius exercitationem, aliquid facilis corrupti facere repellat quaerat sequi eligendi repellendus sit saepe cumque quos, corporis officia, harum fuga nemo unde blanditiis ipsa? Molestias ad, voluptas natus maiores quo labore est expedita odit, sed pariatur sapiente quam repellat! Amet, fuga accusantium numquam asperiores assumenda quia mollitia reiciendis atque deleniti eius reprehenderit!', 
       article_date: '2024-06-29',
@@ -73,7 +73,7 @@ export const articlesExport = [
       expanded: false
     },
     { 
-        theme: 'Городская застройка: проблемы и перспективы', 
+        theme: 'Городская застройка', 
         image_path: '/images/BlogDetails/architecture/1 (3).jpg', 
         main_text: 'Развитие городской застройки представляет собой сложную задачу, требующую учета экологических, социальных и экономических аспектов для создания устойчивых и комфортных городских пространств. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis eius exercitationem, aliquid facilis corrupti facere repellat quaerat sequi eligendi repellendus sit saepe cumque quos, corporis officia, harum fuga nemo unde blanditiis ipsa? Molestias ad, voluptas natus maiores quo labore est expedita odit, sed pariatur sapiente quam repellat! Amet, fuga accusantium numquam asperiores assumenda quia mollitia reiciendis atque deleniti eius reprehenderit!', 
         article_date: '2024-06-28',
@@ -81,7 +81,7 @@ export const articlesExport = [
         expanded: false
     },
     { 
-        theme: 'Архитектурные достопримечательности мира', 
+        theme: 'Архитектурные достопримечательности', 
         image_path: '/images/BlogDetails/architecture/1 (4).jpg', 
         main_text: 'Архитектурные шедевры мира вдохновляют и удивляют, отражая культурное наследие и технические достижения различных эпох и культур. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis eius exercitationem, aliquid facilis corrupti facere repellat quaerat sequi eligendi repellendus sit saepe cumque quos, corporis officia, harum fuga nemo unde blanditiis ipsa? Molestias ad, voluptas natus maiores quo labore est expedita odit, sed pariatur sapiente quam repellat! Amet, fuga accusantium numquam asperiores assumenda quia mollitia reiciendis atque deleniti eius reprehenderit!', 
         article_date: '2024-06-27',
@@ -89,7 +89,7 @@ export const articlesExport = [
         expanded: false
     },
     { 
-        theme: 'Дизайн зданий: форма и функция', 
+        theme: 'Дизайн зданий', 
         image_path: '/images/BlogDetails/architecture/1 (5).jpg', 
         main_text: 'Современный дизайн зданий объединяет эстетику и функциональность, создавая пространства, которые вдохновляют и служат своей цели с учетом потребностей людей. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis eius exercitationem, aliquid facilis corrupti facere repellat quaerat sequi eligendi repellendus sit saepe cumque quos, corporis officia, harum fuga nemo unde blanditiis ipsa? Molestias ad, voluptas natus maiores quo labore est expedita odit, sed pariatur sapiente quam repellat! Amet, fuga accusantium numquam asperiores assumenda quia mollitia reiciendis atque deleniti eius reprehenderit!', 
         article_date: '2024-06-26',
@@ -97,7 +97,7 @@ export const articlesExport = [
         expanded: false
     },
     { 
-        theme: 'Экологичные решения в архитектуре', 
+        theme: 'Экологичные решения', 
         image_path: '/images/BlogDetails/architecture/1 (6).jpg', 
         main_text: 'Экологически устойчивая архитектура интегрирует энергоэффективные технологии и материалы, снижая негативное воздействие на окружающую среду и создавая здоровые пространства для жизни. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis eius exercitationem, aliquid facilis corrupti facere repellat quaerat sequi eligendi repellendus sit saepe cumque quos, corporis officia, harum fuga nemo unde blanditiis ipsa? Molestias ad, voluptas natus maiores quo labore est expedita odit, sed pariatur sapiente quam repellat! Amet, fuga accusantium numquam asperiores assumenda quia mollitia reiciendis atque deleniti eius reprehenderit!', 
         article_date: '2024-06-25',
@@ -105,7 +105,7 @@ export const articlesExport = [
         expanded: false
     },
     { 
-        theme: 'Архитектурные шедевры: вдохновение и творчество', 
+        theme: 'Архитектурные шедевры', 
         image_path: '/images/BlogDetails/architecture/1 (7).jpg', 
         main_text: 'Архитектурные шедевры воплощают в себе вдохновение и творчество архитекторов, представляя собой уникальные и инновационные архитектурные решения, вдохновляющие и восхищающие людей по всему миру. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis eius exercitationem, aliquid facilis corrupti facere repellat quaerat sequi eligendi repellendus sit saepe cumque quos, corporis officia, harum fuga nemo unde blanditiis ipsa? Molestias ad, voluptas natus maiores quo labore est expedita odit, sed pariatur sapiente quam repellat! Amet, fuga accusantium numquam asperiores assumenda quia mollitia reiciendis atque deleniti eius reprehenderit!', 
         article_date: '2024-06-24',
@@ -114,7 +114,7 @@ export const articlesExport = [
     },
     // Ванная комната
     { 
-      theme: 'Спа-оазис в вашей ванной комнате', 
+      theme: 'Спа-оазис в вашей ванной', 
       image_path: '/images/BlogDetails/bathroom/1 (1).jpg', 
       main_text: 'Практичные советы по декорированию ванной комнаты...', 
       article_date: '2024-06-28',
@@ -122,7 +122,7 @@ export const articlesExport = [
       expanded: false
     },
     { 
-        theme: 'Минимализм и функциональность в ванной', 
+        theme: 'Минимализм в ванной', 
         image_path: '/images/BlogDetails/bathroom/1 (2).jpg', 
         main_text: 'Практичные советы по декорированию ванной комнаты...', 
         article_date: '2024-06-27',
@@ -130,7 +130,7 @@ export const articlesExport = [
         expanded: false
     },
     { 
-        theme: 'Ванная комната в скандинавском стиле', 
+        theme: 'Ванная в скандинавском стиле', 
         image_path: '/images/BlogDetails/bathroom/1 (3).jpg', 
         main_text: 'Практичные советы по декорированию ванной комнаты...', 
         article_date: '2024-06-26',
@@ -138,7 +138,7 @@ export const articlesExport = [
         expanded: false
     },
     { 
-        theme: 'Дизайнерские решения для маленькой ванной', 
+        theme: 'Решения для маленькой ванной', 
         image_path: '/images/BlogDetails/bathroom/1 (4).jpg', 
         main_text: 'Практичные советы по декорированию ванной комнаты...', 
         article_date: '2024-06-25',
@@ -146,7 +146,7 @@ export const articlesExport = [
         expanded: false
     },
     { 
-        theme: 'Роскошь и комфорт: дизайн ванной комнаты', 
+        theme: 'Роскошь и комфорт', 
         image_path: '/images/BlogDetails/bathroom/1 (5).jpg', 
         main_text: 'Практичные советы по декорированию ванной комнаты...', 
         article_date: '2024-06-24',
@@ -154,7 +154,7 @@ export const articlesExport = [
         expanded: false
     },
     { 
-        theme: 'Тренды в дизайне ванной комнаты', 
+        theme: 'Тренды в дизайне ванной', 
         image_path: '/images/BlogDetails/bathroom/1 (6).jpg', 
         main_text: 'Практичные советы по декорированию ванной комнаты...', 
         article_date: '2024-06-23',
@@ -162,7 +162,7 @@ export const articlesExport = [
         expanded: false
     },
     { 
-        theme: 'Ванная комната с видом: гармония с природой', 
+        theme: 'Ванная: гармония с природой', 
         image_path: '/images/BlogDetails/bathroom/1 (7).jpg', 
         main_text: 'Практичные советы по декорированию ванной комнаты...', 
         article_date: '2024-06-22',
@@ -171,7 +171,7 @@ export const articlesExport = [
     },
     // Спальня
     { 
-      theme: 'Уют и комфорт: создание идеальной спальни', 
+      theme: 'Уют и комфорт', 
       image_path: '/images/BlogDetails/bedroom/1 (1).jpg', 
       main_text: 'Как создать уют и комфорт в спальне с помощью интерьера...', 
       article_date: '2024-06-27',
@@ -179,7 +179,7 @@ export const articlesExport = [
       expanded: false
     },
     { 
-        theme: 'Дизайн спальни в скандинавском стиле', 
+        theme: 'Спальни в скандинавском стиле', 
         image_path: '/images/BlogDetails/bedroom/1 (2).jpg', 
         main_text: 'Как создать уют и комфорт в спальне с помощью интерьера...', 
         article_date: '2024-06-26',
@@ -195,7 +195,7 @@ export const articlesExport = [
         expanded: false
       },
       { 
-        theme: 'Интерьерные решения для маленькой спальни', 
+        theme: 'Интерьер для маленькой спальни', 
         image_path: '/images/BlogDetails/bedroom/1 (4).jpg', 
         main_text: 'Как создать уют и комфорт в спальне с помощью интерьера...', 
         article_date: '2024-06-24',
@@ -203,7 +203,7 @@ export const articlesExport = [
         expanded: false
       },
       { 
-        theme: 'Спальня в теплых тонах: создание атмосферы', 
+        theme: 'Спальня в теплых тонах', 
         image_path: '/images/BlogDetails/bedroom/1 (5).jpg', 
         main_text: 'Как создать уют и комфорт в спальне с помощью интерьера...', 
         article_date: '2024-06-23',
@@ -211,7 +211,7 @@ export const articlesExport = [
         expanded: false
       },
       { 
-        theme: 'Дизайнерские трюки для уютной спальни', 
+        theme: 'Дизайнерские трюки для спальни', 
         image_path: '/images/BlogDetails/bedroom/1 (6).jpg', 
         main_text: 'Как создать уют и комфорт в спальне с помощью интерьера...', 
         article_date: '2024-06-22',
@@ -219,7 +219,7 @@ export const articlesExport = [
         expanded: false
       },
       { 
-        theme: 'Спальня как место отдыха и вдохновения', 
+        theme: 'Спальня как место отдыха', 
         image_path: '/images/BlogDetails/bedroom/1 (7).jpg', 
         main_text: 'Как создать уют и комфорт в спальне с помощью интерьера...', 
         article_date: '2024-06-21',
@@ -228,7 +228,7 @@ export const articlesExport = [
       },
     // Здание
     { 
-      theme: 'Новейшие технологии в строительстве зданий', 
+      theme: 'Новейшие технологии в строительстве', 
       image_path: '/images/BlogDetails/building/1 (1).jpg', 
       main_text: 'Оценка новых технологий, используемых в современном строительстве...', 
       article_date: '2024-06-26',
@@ -236,7 +236,7 @@ export const articlesExport = [
       expanded: false
     },
     { 
-        theme: 'Устойчивое строительство: экологичные решения', 
+        theme: 'Устойчивое строительство', 
         image_path: '/images/BlogDetails/building/1 (2).jpg',
         main_text: 'Оценка новых технологий, используемых в современном строительстве...', 
         article_date: '2024-06-25',
@@ -244,7 +244,7 @@ export const articlesExport = [
         expanded: false
       },
       { 
-        theme: 'Архитектурные достижения в строительстве', 
+        theme: 'Архитектурные достижения', 
         image_path: '/images/BlogDetails/building/1 (3).jpg',
         main_text: 'Оценка новых технологий, используемых в современном строительстве...', 
         article_date: '2024-06-24',
@@ -260,7 +260,7 @@ export const articlesExport = [
         expanded: false
       },
       { 
-        theme: 'Безопасность и удобство: здания будущего', 
+        theme: 'Безопасность и удобство', 
         image_path: '/images/BlogDetails/building/1 (5).jpg',
         main_text: 'Оценка новых технологий, используемых в современном строительстве...', 
         article_date: '2024-06-22',
@@ -268,7 +268,7 @@ export const articlesExport = [
         expanded: false
       },
       { 
-        theme: 'Промышленные объекты: перспективы развития', 
+        theme: 'Промышленные объекты', 
         image_path: '/images/BlogDetails/building/1 (6).jpg',
         main_text: 'Оценка новых технологий, используемых в современном строительстве...', 
         article_date: '2024-06-21',
@@ -285,7 +285,7 @@ export const articlesExport = [
       },
     // Кухня
     { 
-      theme: 'Модерн и функциональность в кухне', 
+      theme: 'Модерн в кухне', 
       image_path: '/images/BlogDetails/kitchen/1 (1).jpg',
       main_text: 'Практичные советы по созданию современного и функционального кухонного пространства...', 
       article_date: '2024-06-25',
@@ -293,7 +293,7 @@ export const articlesExport = [
       expanded: false
     },
     { 
-        theme: 'Модерн и функциональность в кухне', 
+        theme: 'Функциональность в кухне', 
         image_path: '/images/BlogDetails/kitchen/1 (2).jpg',
         main_text: 'Практичные советы по созданию современного и функционального кухонного пространства...', 
         article_date: '2024-06-24',
@@ -342,7 +342,7 @@ export const articlesExport = [
       },
     // Планировка
     { 
-      theme: 'Оптимальное использование пространства: планировка помещения', 
+      theme: 'Оптимальное использование пространства', 
       image_path: '/images/BlogDetails/layout/1 (1).jpg', 
       main_text: 'Подробный обзор практичных решений для эффективной планировки маленькой квартиры...', 
       article_date: '2024-06-24',
@@ -350,7 +350,7 @@ export const articlesExport = [
       expanded: false
     },
     { 
-        theme: 'Модульные решения для эффективной планировки', 
+        theme: 'Модульные решения', 
         image_path: '/images/BlogDetails/layout/1 (2).jpg', 
         main_text: 'Подробный обзор практичных решений для эффективной планировки маленькой квартиры...', 
         article_date: '2024-06-23',
@@ -366,7 +366,7 @@ export const articlesExport = [
         expanded: false
       },
       { 
-        theme: 'Дизайнерские идеи для маленьких помещений', 
+        theme: 'Дизайнерские идеи помещений', 
         image_path: '/images/BlogDetails/layout/1 (4).jpg', 
         main_text: 'Подробный обзор практичных решений для эффективной планировки маленькой квартиры...', 
         article_date: '2024-06-21',
@@ -374,7 +374,7 @@ export const articlesExport = [
         expanded: false
       },
       { 
-        theme: 'Планировка для комфортной жизни', 
+        theme: 'Планировка комфортной жизни', 
         image_path: '/images/BlogDetails/layout/1 (5).jpg', 
         main_text: 'Подробный обзор практичных решений для эффективной планировки маленькой квартиры...', 
         article_date: '2024-06-20',
@@ -382,7 +382,7 @@ export const articlesExport = [
         expanded: false
       },
       { 
-        theme: 'Эргономика и удобство в планировке', 
+        theme: 'Эргономика и удобство', 
         image_path: '/images/BlogDetails/layout/1 (6).jpg', 
         main_text: 'Подробный обзор практичных решений для эффективной планировки маленькой квартиры...', 
         article_date: '2024-06-19',
@@ -390,7 +390,7 @@ export const articlesExport = [
         expanded: false
       },
       { 
-        theme: 'Планировка и функциональность: современные тенденции', 
+        theme: 'Планировка: современные тенденции', 
         image_path: '/images/BlogDetails/layout/1 (7).jpg', 
         main_text: 'Подробный обзор практичных решений для эффективной планировки маленькой квартиры...', 
         article_date: '2024-06-18',
