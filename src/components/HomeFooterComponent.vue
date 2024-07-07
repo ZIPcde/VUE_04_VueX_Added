@@ -13,9 +13,9 @@
             <nav class="pages">
                 <h3 class="dm-serif-display-regular font_25">Страницы</h3>
                 <ul class="nav_links-holder2 jost-font font_20">
-                    <li><a href="./index.html">Домой</a></li>
-                    <li><a href="about.php">Проект</a></li>
-                    <li><a href="./blog.html">Блог</a></li>
+                    <li><router-link to="/">Домой</router-link></li>
+                    <li><router-link to="/about">Проект</router-link></li>
+                    <li><router-link to="/blog">Блог</router-link></li>
                 </ul>
             </nav>
             <section class="footer_contacts">

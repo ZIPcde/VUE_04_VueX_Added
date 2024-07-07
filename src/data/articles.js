@@ -1,6 +1,62 @@
 export const articlesExport = [
     // Архитектура
     { 
+      theme: 'Дизайн кухни',
+      image_path: '/images/Img7.png', 
+      main_text: 'Low Cost Latest Invented Interior Designing Ideas', 
+      article_date: '2024-07-07',
+      themeFilter: 'Hot News',
+      expanded: false
+    },
+    { 
+      theme: 'Дизайн кухни', 
+      image_path: '/images/Img1.png', 
+      main_text: 'Создадим лучший макет перепланировки', 
+      article_date: '2024-07-06',
+      themeFilter: 'Hot News',
+      expanded: false
+    },
+    { 
+      theme: 'Дизайн для жизни', 
+      image_path: '/images/Img2.png', 
+      main_text: 'Лучшие интерьерные идеи по низкой цене', 
+      article_date: '2024-07-05',
+      themeFilter: 'Hot News',
+      expanded: false
+    },
+    { 
+      theme: 'Дизайн Интерьера', 
+      image_path: '/images/Img3.png', 
+      main_text: 'Лучшие интерьерные решения для офисов', 
+      article_date: '2024-07-04',
+      themeFilter: 'Hot News',
+      expanded: false
+    },
+    { 
+      theme: 'Дизайн кухни', 
+      image_path: '/images/Img4.png', 
+      main_text: 'Создадим лучший макет перепланировки', 
+      article_date: '2024-07-03',
+      themeFilter: 'Hot News',
+      expanded: false
+    },
+    { 
+      theme: 'Дизайн для жизни', 
+      image_path: '/images/Img5.png', 
+      main_text: 'Лучшие интерьерные идеи по низкой цене', 
+      article_date: '2024-07-02',
+      themeFilter: 'Hot News',
+      expanded: false
+    },
+    { 
+      theme: 'Дизайн Интерьера', 
+      image_path: '/images/Img6.png', 
+      main_text: 'Лучшие интерьерные решения для офисов', 
+      article_date: '2024-07-01',
+      themeFilter: 'Hot News',
+      expanded: false
+    },
+    { 
       theme: 'Современные тенденции в архитектуре', 
       image_path: '/images/BlogDetails/architecture/1 (1).jpg', 
       main_text: 'Современная архитектура воплощает инновационные концепции и технологии, отражая динамичность современного общества и стремление к уникальным формам и материалам. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis eius exercitationem, aliquid facilis corrupti facere repellat quaerat sequi eligendi repellendus sit saepe cumque quos, corporis officia, harum fuga nemo unde blanditiis ipsa? Molestias ad, voluptas natus maiores quo labore est expedita odit, sed pariatur sapiente quam repellat! Amet, fuga accusantium numquam asperiores assumenda quia mollitia reiciendis atque deleniti eius reprehenderit!', 
