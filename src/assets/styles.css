@@ -457,6 +457,10 @@ time {
     background-color: #F4F0EC;
 }
 
+.blog_header_img {
+  width: 99vw;
+}
+
 .blog_header_text {
   position: absolute;
   display: flex;
@@ -620,4 +624,119 @@ ol li::before {
 .blog_details-button-holder .active {
   background-color: #292F36;
   color: #FFFFFF;  
+}
+
+/* Project */
+
+.project_header {
+  display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 98.9vw;
+    max-width: 1920px;
+    width: 100%;
+    margin-top: 45px;
+    /* position: absolute; */
+    left: 0;
+    right: 0;
+    /* height: 457px; */
+    background-color: #F4F0EC;
+}
+
+.project_header_text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 503px;
+  height: 150px;
+  z-index: 3;
+  margin-top: 0%;
+  background-color: #FFFFFF;
+  border-top-left-radius: 27px;
+  border-top-right-radius: 27px;
+  /* border: #292F36 solid 1px; */
+  /* margin-bottom: 30%; */
+}
+
+.news_holder {
+  margin-top: 560px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.news_card-holder {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.project_article-holder {
+  /* padding: 21px; */
+  /* border: 1px #E7E7E7 solid; */
+  /* border-radius: 50px; */
+}
+
+.project_news_card-holder {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 28px;
+  justify-content: center;
+  align-items: center;
+}
+
+.news_card_center{
+margin-left: 24px;
+margin-right: 24px;
+}
+
+.news_img-holder {
+position: relative;
+z-index: 1;
+}
+
+.project_article_img-1 {
+position: relative;
+width: 100%;
+height: auto;
+/* max-height: 290px; */
+overflow: hidden;
+/* border-top-left-radius: 40px;
+border-top-right-radius: 40px; */
+z-index: 1;
+}
+
+.news_img_text-holder {
+position: absolute;
+margin: auto;
+top: 78%;
+left: 5%;
+min-width: 129px;
+max-width: fit-content;
+min-height: 41px;
+max-height: fit-content;
+background-color: #FFF;
+border-radius: 10px;
+border-bottom-left-radius: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 3;
+}
+
+.project_text-holder {
+  display: flex;
+  justify-content: space-between;
+padding-top: 21px;
+}
+
+.news_time-and-button-holder{
+margin-top: 30px;
+display: flex;
+justify-content: space-between;
+align-items: center;
 }

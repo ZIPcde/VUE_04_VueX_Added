@@ -129,7 +129,6 @@ export default {
 </script>
 
 <style scoped>
-/* Ваши стили */
 .pagination {
   display: flex;
   justify-content: center;

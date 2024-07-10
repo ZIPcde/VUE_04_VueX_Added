@@ -79,12 +79,12 @@ export default {
     filterByTag(tag) {
       this.currentTag = tag;
       this.filteredArticles = this.articles.filter(article => article.themeFilter === tag);
-      this.expandedIndex = null; // Сбросить развернутую статью при фильтрации
+      this.expandedIndex = null; 
     },
     resetFilter() {
       this.currentTag = null;
       this.filteredArticles = this.articles;
-      this.expandedIndex = null; // Сбросить развернутую статью при сбросе фильтра
+      this.expandedIndex = null; 
     }
   }
 };

@@ -40,6 +40,5 @@ import HomeFooter from '../components/HomeFooterComponent.vue';
   </script>
   
   <style scoped>
-  /* Ваши стили */
   </style>
   
