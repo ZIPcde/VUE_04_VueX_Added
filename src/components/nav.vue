@@ -6,7 +6,7 @@
         </div>
         <ul class="nav_links-holder jost-font font_20">
             <li><router-link to="/">Домой</router-link></li>
-            <li><router-link to="/about">Проект</router-link></li>
+            <li><router-link to="/project">Проект</router-link></li>
             <li><router-link to="/blog">Блог</router-link></li>
         </ul>
     </nav>

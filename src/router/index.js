@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomePage from '../views/Home.vue'
-// import About from '../views/About.vue'
 import BlogPage from '../views/BlogPage.vue'
 import BlogDetailsPage from '../views/BlogDetailsPage.vue'
+import ProjectPage from '../views/ProjectPage.vue'
 
 Vue.use(VueRouter)
 
@@ -13,11 +13,6 @@ const routes = [
     name: 'Home',
     component: HomePage
   },
-  // {
-  //   path: '/about',
-  //   name: 'About',
-  //   component: About
-  // },
   {
     path: '/blog',
     name: 'Blog',
@@ -27,6 +22,11 @@ const routes = [
     path: '/blogDetails',
     name: 'BlogDetails',
     component: BlogDetailsPage
+  },
+  {
+    path: '/project',
+    name: 'Project',
+    component: ProjectPage
   }
 ]
 
