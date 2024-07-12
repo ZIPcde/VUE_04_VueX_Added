@@ -3,7 +3,7 @@
       <NavComponent />
       <main>
         <BlogDetailsHeaderComponent />
-        <BlogDetailsMainNewsComponent />
+        <BlogDetailsMainNewsComponent :id="id" />
       </main>
       <HomeFooter />
     </div>
@@ -18,6 +18,7 @@ import HomeFooter from '../components/HomeFooterComponent.vue';
 
   export default {
     name: 'BlogDetailsPage',
+    props: ['id'],
     components: {
     NavComponent,
     BlogDetailsHeaderComponent,

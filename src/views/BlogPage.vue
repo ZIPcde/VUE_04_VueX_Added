@@ -13,7 +13,7 @@
             <p class="jost-font font_22">{{ extendedNews.largeText }}</p><br />
             <div class="news_time-and-button-holder">
               <time class="jost-font font_16">{{ extendedNews.article_date }}</time>
-              <svg class="news_btn" width="52" height="53" viewBox="0 0 52 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg @click="goToBlogDetails(extendedNews.id)" class="news_btn" width="52" height="53" viewBox="0 0 52 53" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="26" cy="26.267" r="26" fill="currentColor" />
                 <path d="M23.7714 32.9527L29.7143 26.267L23.7714 19.5813" stroke="#292F36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
               </svg>
@@ -33,7 +33,7 @@
                 <h3 class="jost-font font_25 main_theme-text">{{ truncateText(item.main_text) }}</h3>
                 <div class="news_time-and-button-holder">
                   <time class="time jost-font font_16" :datetime="item.article_date">{{ item.article_date }}</time>
-                  <svg class="news_btn" width="52" height="53" viewBox="0 0 52 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg @click="goToBlogDetails(item.id)" class="news_btn" width="52" height="53" viewBox="0 0 52 53" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="26" cy="26.267" r="26" fill="currentColor" />
                     <path d="M23.7714 32.9527L29.7143 26.267L23.7714 19.5813" stroke="#292F36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                   </svg>
@@ -108,6 +108,9 @@ export default {
     }
   },
   methods: {
+    goToBlogDetails(id) {
+      this.$router.push({ name: 'BlogDetails', params: { id } });
+    },
     nextSet() {
       this.buttonSet++;
       this.currentPage = this.buttonSet * 3;
