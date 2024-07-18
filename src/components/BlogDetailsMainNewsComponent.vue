@@ -44,66 +44,63 @@
         :class="{ active: !currentTag }">
         Сбросить фильтр
       </button>
-      <p>Child Component Received ID: {{ id }}</p>
     </div>
   </header>
 </template>
 
 <script>
-import { articlesExport } from '@/data/articles.js';
+import { mapState, mapGetters, mapActions } from 'vuex';
 
 export default {
   name: 'BlogDetailsMainNewsComponent',
   props: ['id'],
   data() {
     return {
-      articles: articlesExport,
-      filteredArticles: articlesExport.map(article => ({
-        ...article,
-        expanded: false
-      })),
       currentTag: null,
       expandedIndex: null
     };
   },
   computed: {
+    ...mapState(['articles']),
+    ...mapGetters(['allArticles']),
+    filteredArticles() {
+      let articles = this.currentTag
+        ? this.allArticles.filter(article => article.themeFilter === this.currentTag)
+        : this.allArticles;
+      return articles.map((article, idx) => ({
+        ...article,
+        expanded: idx === this.expandedIndex
+      }));
+    },
     uniqueTags() {
-      return [...new Set(this.articles.map(article => article.themeFilter))];
+      return [...new Set(this.allArticles.map(article => article.themeFilter))];
     },
     expandedArticle() {
       return this.expandedIndex !== null ? this.filteredArticles[this.expandedIndex] : null;
     }
   },
   methods: {
+    ...mapActions(['loadArticles']),
     toggleArticleExpansion(index) {
-      this.filteredArticles.forEach((article, idx) => {
-        article.expanded = idx === index ? !article.expanded : false;
-      });
-      this.expandedIndex = this.filteredArticles[index].expanded ? index : null;
+      this.expandedIndex = this.expandedIndex === index ? null : index;
     },
     filterByTag(tag) {
       this.currentTag = tag;
-      this.filteredArticles = this.articles
-        .filter(article => article.themeFilter === tag)
-        .map(article => ({ ...article, expanded: false }));
-      this.expandedIndex = null; 
+      this.expandedIndex = null;
     },
     resetFilter() {
       this.currentTag = null;
-      this.filteredArticles = this.articles.map(article => ({ ...article, expanded: false }));
-      this.expandedIndex = null; 
+      this.expandedIndex = null;
     },
     setInitialExpandedArticle() {
-      const articleIndex = this.filteredArticles.findIndex(article => article.id === this.id);
+      const articleIndex = this.allArticles.findIndex(article => article.id === this.id);
       if (articleIndex !== -1) {
-        this.filteredArticles.forEach((article, idx) => {
-          article.expanded = idx === articleIndex;
-        });
         this.expandedIndex = articleIndex;
       }
     }
   },
   mounted() {
+    this.loadArticles();
     this.setInitialExpandedArticle();
   }
 };

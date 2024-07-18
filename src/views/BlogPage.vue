@@ -5,7 +5,7 @@
       <BlogHeader />
       <section class="blog_news_holder">
         <h2 class="blog_news_last-h2 dm-serif-display-regular font_50">Последний пост</h2>
-        <article class="extended-news">
+        <article class="extended-news" v-if="extendedNews">
           <img :src="extendedNews.image_path" alt="img" class="news_extended_img-1" />
           <div class="blog_ext-article-text">
             <h2 class="extended-news-h2 dm-serif-display-regular font_25">{{ extendedNews.theme }}</h2>
@@ -68,7 +68,7 @@
 import NavComponent from '../components/nav.vue';
 import BlogHeader from '../components/BlogHeaderComponent.vue';
 import HomeFooter from '../components/HomeFooterComponent.vue';
-import { articlesExport } from '@/data/articles.js';
+import { mapGetters } from 'vuex';
 
 export default {
   name: 'BlogPage',
@@ -77,17 +77,10 @@ export default {
     BlogHeader,
     HomeFooter
   },
-  data() {
-    return {
-      articles: articlesExport,
-      currentPage: 0,
-      articlesPerPage: 6,
-      buttonSet: 0
-    };
-  },
   computed: {
+    ...mapGetters(['allArticles']),
     sortedArticles() {
-      return [...this.articles].sort((a, b) => new Date(b.article_date) - new Date(a.article_date));
+      return [...this.allArticles].sort((a, b) => new Date(b.article_date) - new Date(a.article_date));
     },
     extendedNews() {
       return this.sortedArticles[0];
@@ -98,7 +91,7 @@ export default {
       return this.sortedArticles.slice(start, end);
     },
     totalPages() {
-      return Math.ceil((this.articles.length - 1) / this.articlesPerPage);
+      return Math.ceil((this.allArticles.length - 1) / this.articlesPerPage);
     },
     buttons() {
       const start = this.buttonSet * 3;
@@ -106,6 +99,13 @@ export default {
       const pages = Array.from({ length: end - start }, (_, i) => i + start);
       return pages;
     }
+  },
+  data() {
+    return {
+      currentPage: 0,
+      articlesPerPage: 6,
+      buttonSet: 0
+    };
   },
   methods: {
     goToBlogDetails(id) {
@@ -127,6 +127,9 @@ export default {
         return text;
       }
     }
+  },
+  created() {
+    this.$store.dispatch('loadArticles');
   }
 };
 </script>
@@ -144,7 +147,6 @@ export default {
   color: #292F36;
   border: 1px solid #CDA274;
   border-radius: 50%;
-  /* padding: 10px 20px; */
   width: 52px;
   height: 52px;
   margin: 0 10px;

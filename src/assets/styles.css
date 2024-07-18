@@ -509,6 +509,9 @@ time {
 }
 
 .news_extended_img-1{
+  width: 69%;
+  /* height: auto; */
+  object-fit: cover;
   border-radius: 40px;
   margin: 31px;
   /* margin-bottom: 31; */

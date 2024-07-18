@@ -18,7 +18,7 @@
         </button>
       </section>
 
-      <section class="blog_news_holder">
+      <section class="project_news_holder">
         <div class="project_news_card-holder">
           <article v-for="(item, index) in paginatedArticles" :key="index">
             <div class="project_article-holder">
@@ -33,7 +33,7 @@
                   <h3 class="dm-serif-display-sserif font_25 main_theme-text">{{ truncateText(item.theme) }}</h3>
                   <p class="jost-font font_18">Декор / Планировка</p>
                 </div>
-                <svg class="news_btn" width="52" height="53" viewBox="0 0 52 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg @click="goToProjectDetails(item.id)" class="news_btn" width="52" height="53" viewBox="0 0 52 53" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <circle cx="26" cy="26.267" r="26" fill="currentColor" />
                   <path d="M23.7714 32.9527L29.7143 26.267L23.7714 19.5813" stroke="#292F36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
@@ -119,6 +119,9 @@ export default {
     }
   },
   methods: {
+    goToProjectDetails(id) {
+      this.$router.push({ name: 'ProjectDetails', params: { id } });
+    },
     nextSet() {
       this.buttonSet++;
       this.currentPage = this.buttonSet * 3;

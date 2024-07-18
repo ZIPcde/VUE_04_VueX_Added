@@ -2,7 +2,7 @@ export const articlesExport = [
     // Архитектура
     { 
       theme: 'Low Cost Latest Invented Interior Designing Ideas',
-      image_path: '/images/Img7.png', 
+      image_path: '/images/Img7.jpg', 
       main_text: 'С того времени этот, похожий на латинский, текст стал стандартом в печатной промышленности для примеров шрифтов и текстов. Перед появлением электронных издательств дизайнеры импровизировали в работе над макетами, изображая текст при помощи волнистых линий. С появлением самоклеющихся наклеек с напечатанным текстом «Lorem ipsum» появился более реалистичный способ обозначения расположения текста на странице.', 
       article_date: '2024-07-07',
       themeFilter: 'Hot News',
@@ -11,7 +11,7 @@ export const articlesExport = [
     },
     { 
       theme: 'Дизайн кухни', 
-      image_path: '/images/Img1.png', 
+      image_path: '/images/Img1.jpg', 
       main_text: 'Создадим лучший макет перепланировки', 
       article_date: '2024-07-06',
       themeFilter: 'Hot News',
@@ -20,7 +20,7 @@ export const articlesExport = [
     },
     { 
       theme: 'Дизайн для жизни', 
-      image_path: '/images/Img2.png', 
+      image_path: '/images/Img2.jpg', 
       main_text: 'Лучшие интерьерные идеи по низкой цене', 
       article_date: '2024-07-05',
       themeFilter: 'Hot News',
@@ -29,7 +29,7 @@ export const articlesExport = [
     },
     { 
       theme: 'Дизайн Интерьера', 
-      image_path: '/images/Img3.png', 
+      image_path: '/images/Img3.jpg', 
       main_text: 'Лучшие интерьерные решения для офисов', 
       article_date: '2024-07-04',
       themeFilter: 'Hot News',
@@ -38,7 +38,7 @@ export const articlesExport = [
     },
     { 
       theme: 'Дизайн кухни', 
-      image_path: '/images/Img4.png', 
+      image_path: '/images/Img4.jpg', 
       main_text: 'Создадим лучший макет перепланировки', 
       article_date: '2024-07-03',
       themeFilter: 'Hot News',
@@ -47,7 +47,7 @@ export const articlesExport = [
     },
     { 
       theme: 'Дизайн для жизни', 
-      image_path: '/images/Img5.png', 
+      image_path: '/images/Img5.jpg', 
       main_text: 'Лучшие интерьерные идеи по низкой цене', 
       article_date: '2024-07-02',
       themeFilter: 'Hot News',
@@ -56,7 +56,7 @@ export const articlesExport = [
     },
     { 
       theme: 'Дизайн Интерьера', 
-      image_path: '/images/Img6.png', 
+      image_path: '/images/Img6.jpg', 
       main_text: 'Лучшие интерьерные решения для офисов', 
       article_date: '2024-07-01',
       themeFilter: 'Hot News',
