@@ -5,6 +5,7 @@ import BlogPage from '../views/BlogPage.vue';
 import BlogDetailsPage from '../views/BlogDetailsPage.vue';
 import ProjectPage from '../views/ProjectPage.vue';
 import ProjectDetailsPage from '../views/ProjectDetailsPage.vue';
+import NotFound from '../views/NotFound.vue';
 
 Vue.use(VueRouter);
 
@@ -35,6 +36,11 @@ const routes = [
     name: 'ProjectDetails',
     component: ProjectDetailsPage,
     props: true
+  },
+  {
+    path: '*',
+    name: 'NotFound',
+    component: NotFound
   }
 ];
 

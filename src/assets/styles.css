@@ -36,6 +36,10 @@ a {
     font-style: italic;
   }
 
+  .font_250 {
+    font-size: 250px;
+  }
+
   .font_85 {
       font-size: 85px;
     }
@@ -50,6 +54,11 @@ a {
 
   .font_40 {
     font-size: 40px;
+  }
+
+  .font_35 {
+    font-size: 35px;
+    font-weight: 300;
   }
 
   .font_25 {
@@ -742,4 +751,40 @@ margin-top: 30px;
 display: flex;
 justify-content: space-between;
 align-items: center;
+}
+
+/* 404 */
+
+.Err404_holder {
+  margin-top: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.error-h1-404 {
+  font-weight: 600;
+  color: #CDA274;
+  margin-bottom: -40px;
+}
+
+.text_and_button-holder-404 {
+  width: 43%;
+}
+
+.btn_404 {
+  margin-top: 23px;
+  background-color: #292F36;
+  color: white;
+  width: 192px;
+  height: 75px;
+  border: none;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.Err404_img {
+  width: 50%;
+  /* margin-right: -10%; */
+  border-bottom-left-radius: 30%;
 }
